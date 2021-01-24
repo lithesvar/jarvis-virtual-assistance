@@ -196,10 +196,10 @@ def run_jarvis():
         mail.starttls()
 
         # login
-        mail.login('singledude66@gmail.com', 'LithesvarLITHU')
+        mail.login('Your MAIL ID', 'PASSWORD')
 
         # send message
-        mail.sendmail('singledude66@gmail.com', 'lithesvar@gmail.com', content)
+        mail.sendmail('FROM', 'TO', content)
 
         # end mail connection
         mail.close()
